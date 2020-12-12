@@ -9,13 +9,10 @@ class PageControllerTest < ActionDispatch::IntegrationTest
     assert_select "p", 0
   end
 
-<<<<<<< HEAD
-  test "should get about_us" do
-    get "/about_us"
-=======
+
   test "should get about_me" do
     get "/about_me"
->>>>>>> 91cb195f905e39822a5e5554d5bcfddeb27c0600
+
     assert_response :success
 
     assert_select "body" do
