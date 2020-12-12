@@ -26,7 +26,6 @@ jobs:
 
       - name: Install NPM packages
         if: steps.check_package_json.outputs.files_exists == 'true'
->>>>>>> 91cb195f905e39822a5e5554d5bcfddeb27c0600
         uses: bahmutov/npm-install@v1
         with:
           working-directory: session_1/hello_world
