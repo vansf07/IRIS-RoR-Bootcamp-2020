@@ -17,9 +17,7 @@ jobs:
           working-directory: session_1/hello_world
           bundler-cache: true
 
-<<<<<<< HEAD
-      - name: Install NPM packages
-=======
+
       - name: Check if package.json exists
         id: check_package_json
         uses: andstor/file-existence-action@v1
