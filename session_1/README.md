@@ -114,5 +114,7 @@ git push --set-upstream origin session_1_abhishek_kumar
   passed` on the pull request page. If not, check the failing tests, fix
   them and push your changes again.
 
-- In case of doubts, you can also comment on the pull request and
+
+- If you have doubts, you can also comment on the pull request and
+
   request review from mentors (`abhishekkumar2718`, ``)
